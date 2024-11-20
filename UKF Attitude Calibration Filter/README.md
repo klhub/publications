@@ -1,0 +1,6 @@
+Based on my paper below: -
+Kok-Lam Lai, John Crassidis and Richard Harman. "In-Space Spacecraft Alignment Calibration Using the Unscented Filter," AIAA 2003-5563. AIAA Guidance, Navigation, and Control Conference and Exhibit. August 2003.
+
+This was my first publication, so no judging here :) But surprisingly I get requested for this code and told by colleagues that this is their reference for attitude filtering with calibration. As I mentioned, this was my first ever publication, I received a lot of help and the calibration model was given by Dr Mark Pittelkau. As an early MSc work, I figured out a new non-linear filtering at that time and implemented it to this calibration model. I used the earlier version of the filter called "Unscented Kalman Filter". This earlier formulation may produce non-positive-semi-definite covariance matrix after resampling. If you implement this, please use the stable version from Dr Magnus Norgaard that's called Divided-Difference 2 (DD2) filter. Or use "The Sigma Point Estimator" from Chapter 11 of the "Navigation Filter Best Practices". 
+
+Todo would be for me to update these to the stable DD2 Sigma-Point Kalman Filter, however this is not a priority for me at the moment. Please let me know if you need help. 
