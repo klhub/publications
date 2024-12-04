@@ -1,9 +1,10 @@
 A collection of my publications. Mostly related to: -
-- Navigation (perception) sensor 
+- Navigation / Perception sensors
   - Modeling
   - Alignment calibration
   - Three-Axis Magnetometer calibration
-- State estimation 
+  - [Unpublished] Spherical harmonics and geomagnetic field modeling
+- State estimation / Sensor fusion
   - Extended Kalman Filter
   - RTS Batch Filter
   - Unscented Kalman Filter
